@@ -1,3 +1,1 @@
 # FuentesGonzalez-Frontend
-# TomiElProDelSoftWare
-# FacuElProDelSoftWare
