@@ -1,0 +1,62 @@
+.cuerpo{
+    background-color: rgba(219, 219, 191, 0.801);
+}
+
+.texto1{
+    color: rgba(128, 80, 80, 0.938);
+    font-size: 50px;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    text-decoration: underline;
+}
+
+.sectionDivs {
+    display: flex;
+    column-gap: 0.5%;
+}
+
+.div{
+    border: 5px outset rgba(128, 80, 80, 0.938);
+    border-style: solid;
+    background-color: rgba(248, 230, 230, 0.719);    
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    width: 30%  ;
+    padding: 30px;
+}
+
+
+
+.descripcion{
+    color: rgb(221, 207, 7);
+}
+
+
+.imagen{
+    width: 200px;
+}
+
+.boton{
+    color: black;
+    background-color: rgba(231, 210, 210, 0.938);
+    border-radius: 40px;
+    border-style: none;
+}
+
+.boton:hover{
+    cursor: pointer;
+}
+
+.boton:active{
+    opacity: 0.6;
+}
+
+
+
+.oswald-uniquifier{ 
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal
+}
