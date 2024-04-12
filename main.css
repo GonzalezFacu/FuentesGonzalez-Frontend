@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inder&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+:root{
+    --body-color: #e3e7d3;
+    --nav-color: #ffffff;
+    --footer-color: #697268;
+    --side-nav: ;
+    --text-color: rgba(18, 18, 18, 1);
+    --search-bar: ;
+    --search-text: ;
+    --main-color: #EFE9B5;
+    --input-color: #f5f5f5;
+}
+/* Colores */
+h6 {
+    min-height: 500px;
+}
+
+body{
+    margin-top: 70px;
+}
