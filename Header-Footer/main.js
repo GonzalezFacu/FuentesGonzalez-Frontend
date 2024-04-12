@@ -6,8 +6,8 @@ class MyHeader extends HTMLElement {
             <nav>
                 <div class="nav-bar">
                     <span>
-                        <a href="/Pruebas/Header-Footer/index.html" class="logo">
-                            <img src="/Pruebas/Header-Footer/img/logo.png" alt="">
+                        <a href="/Header-Footer/index.html" class="logo">
+                            <img src="/Header-Footer/img/logo.png" alt="">
                             <h2>Cajas Sorpresa</h2>
                         </a>
                     </span>
@@ -17,7 +17,7 @@ class MyHeader extends HTMLElement {
                             <li><a href="#">Home</a></li>
                             <li><a href="#">About</a></li>
                             <li><a href="#">Categories</a></li>
-                            <li><a href="/Pruebas/Log-In/usuario.html">Log In</a></li>
+                            <li><a href="/Log-In/usuario.html">Log In</a></li>
                         </ul>
                     </div>
                 </div>
