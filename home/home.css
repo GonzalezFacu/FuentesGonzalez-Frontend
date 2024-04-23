@@ -1,0 +1,121 @@
+*{
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+
+}
+
+
+
+.imagen-fondo{
+  display: flex;
+  height: 700px;
+  width: 100%;
+  background-image: linear-gradient(to right,#4a4645,#5F4842,#937d77, #695d59 );
+  vertical-align: middle;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.texto{
+  color: #e1deda;
+  text-shadow: -1px -1px 0 #361c02, 1px -1px 0 #361c02, -1px  1px 0 #361c02, 1px  1px 0 #361c02;
+  font-size: 160px;
+  font-weight: 1000;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.info{
+  justify-content: center;
+}
+
+
+
+.titulo-info{
+  font-size: 100px;
+  font-weight: 1000;
+  color: #000000;
+  margin-bottom: 20px;
+  text-align: center;
+  display: block;
+}
+
+
+.cards-productos{
+  display: flex;
+  justify-content: space-evenly ;
+  margin: 20px;
+  margin-bottom: 100px;
+}
+
+.card{
+  font-size: 10px;
+  width: 420px;
+  height: 700px;
+  border: 3px solid black;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  transition: 0.4s;
+  background-color: #ffffff;
+}
+
+.card2{
+  background-color: #f3ebde;
+}
+
+.link, link:visited{
+  color: #000000;
+  text-decoration: none;
+}
+
+.sigma{
+  font-size: 60px;
+  padding: 10px;
+  color: #000000;
+}
+
+.card:hover{
+  transform: scale(1.02);
+
+}
+
+.imagen-sneakers{
+  width: 400px;
+}
+
+.imagen-ropa{
+  width: 400px;
+}
+
+.card1{
+  background-image: url(media/fondo-zapas.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.card2{
+  background-image: url(media/fondo-ropa.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: +145px;
+}
+
+.card3{
+  background-image: url(media/fondo-accesorios.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: +50px;
+}
+
+
+.josefin-sans-uniquifier {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
