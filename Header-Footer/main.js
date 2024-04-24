@@ -8,7 +8,7 @@ class MyHeader extends HTMLElement {
                     <span>
                         <a href="/Header-Footer/index.html" class="logo">
                             <img src="/Header-Footer/img/logo.png" alt="">
-                            <h2>Cajas Sorpresa</h2>
+                            <h2>Couture Insurrection</h2>
                         </a>
                     </span>
             
@@ -17,7 +17,7 @@ class MyHeader extends HTMLElement {
                             <li><a href="#">Home</a></li>
                             <li><a href="#">About</a></li>
                             <li><a href="#">Categories</a></li>
-                            <li><a href="/Log-In/usuario.html">Log In</a></li>
+                            <li><a href="/Log-in/log-in.html">Log In</a></li>
                         </ul>
                     </div>
                 </div>

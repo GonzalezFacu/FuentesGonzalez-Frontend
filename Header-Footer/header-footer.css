@@ -30,7 +30,7 @@ nav .nav-bar .logo{
 
 nav .nav-bar .logo h2{
     font-size: 25px;
-    color: var(--text-color);
+    color: var(--nav-text-color);
     font-weight: 600;
     text-decoration: none;
 }
@@ -39,6 +39,7 @@ nav .nav-bar .logo img{
     margin: 0 5px;
     height: 32px;
     width: auto;
+    border-radius: 5px;
 }
 
 .nav-bar .nav-links{
@@ -55,7 +56,7 @@ nav .nav-bar .logo img{
     position: relative;
     font-size: 17px;
     font-weight: 400;
-    color: var(--text-color);
+    color: var(--nav-text-color);
     text-decoration: none;
     padding: 10px;
 }
@@ -69,7 +70,7 @@ nav .nav-bar .logo img{
     height: 6px;
     width: 6px;
     border-radius: 50%;
-    background-color: var(--text-color);
+    background-color: var(--nav-text-color);
     opacity: 0;
     transition: all 0.5s ease;
 }
@@ -96,7 +97,7 @@ footer .footer-bar{
 
 .footer-nav .nav-items *{
     list-style: none;
-    color: var(--text-color);
+    color: var(--footer-text-color);
     text-decoration: none;
 }
 
