@@ -1,0 +1,113 @@
+
+:root{
+
+  --couture-title-color: #D3CFC9;
+  --couture-title-shadow: #2b1602;
+
+  --title-info-color: #E8E6E3;
+}
+
+body{
+  background-color: #181A1B;
+}
+
+.imagen-fondo{
+  display: flex;
+  height: 615px;
+  width: 100%;
+  background-image: linear-gradient(to right, #363a3d, #4c3a35, #5d6569, #494f52);
+  vertical-align: middle;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.texto{
+  color: var(--couture-title-color);
+  text-shadow: -1px -1px 0 var(--couture-title-shadow), 1px -1px 0 var(--couture-title-shadow), -1px  1px 0 var(--couture-title-shadow), 1px  1px 0 var(--couture-title-shadow);
+  font-size: 160px;
+  font-weight: 1000;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.info{
+  justify-content: center;
+}
+
+.titulo-info{
+  font-size: 80px;
+  font-weight: 1000;
+  color: var(--title-info-color);
+  margin-bottom: 20px;
+  text-align: center;
+  display: block;
+}
+
+
+.cards-productos{
+  display: flex;
+  justify-content: space-evenly ;
+  margin: 20px;
+  margin-bottom: 100px;
+}
+
+.card{
+  font-size: 10px;
+  width: 320px;
+  height: 500px;
+  border: 3px solid #8c8273;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  transition: 0.4s;
+}
+
+.link, link:visited{
+  color: #000000;
+  text-decoration: none;
+}
+
+.sigma{
+  font-size: 40px;
+  padding: 10px;
+  color: #000000;
+}
+
+.card:hover{
+  transform: scale(1.02);
+}
+
+.card1{
+  background-image: url(/Home/img/fondo-zapas.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: -55px;
+}
+
+.card2{
+  background-color: #f1ebdf;
+  background-image: url(/Home/img/fondo-ropa.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: +110px;
+}
+
+.card3{
+  background-color: white;
+  background-image: url(/Home/img/fondo-accesorios.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: +5px;
+}
+
+
+.josefin-sans-uniquifier {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
