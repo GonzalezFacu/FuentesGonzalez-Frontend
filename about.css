@@ -1,0 +1,24 @@
+
+.about_body{
+    padding: 50px;
+}
+
+.about_card{
+
+}
+
+.contenedor{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.imagen{
+    height: 500px;
+}
+
+.descripcion{
+    display: flex;
+    border: 2px solid red;
+    text-align: right;
+    align-items: center;
+}
